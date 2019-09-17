@@ -32,6 +32,16 @@ then see Troubleshoot3.jpg
 (7) ok .... still kept trying ..... 
 still bombs on line 57 of DriveQuickstart.java see Troubleshoot_java_sourcecode_1.jpg
 
+(8) ok uploaded documentation from 2 websites as .pdf and .java
+  (A) Using OAuth 2.0 with the Google API Client Library for Java
+  (B) OAuth 2.0 and the Google OAuth Client Library for Java
+
+(9) For  (8A)  found source code in github:
+https://github.com/google/google-api-java-client-samples/tree/master/plus-cmdline-sample
+
+lets try to use this code before trying (8B)
+
+
 
 
 
