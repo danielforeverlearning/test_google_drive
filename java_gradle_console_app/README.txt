@@ -21,7 +21,13 @@ http://console.developers.google.com
 
 org.gradle.java.home=C:\\Program Files\\Java\\jdk1.8.0_144
 
-(6) did "gradle run" from command prompt and ohmygoodness it did open up browser and i entered google sign-in credentials for my google account and had to click around giving permissions in the pages that kept popping up, sent to my phone another authentication step, went to my phone and pressed right number,  then see Troubleshoot3.jpg
+(6) did "gradle run" from command prompt and 
+ohmygoodness it did open up browser 
+and i entered google sign-in credentials for my google account 
+and had to click around giving permissions in the pages that kept popping up, 
+sent to my phone another authentication step, 
+went to my phone and pressed right number,  
+then see Troubleshoot3.jpg
 
 
 
