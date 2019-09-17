@@ -17,6 +17,12 @@ http://console.developers.google.com
 (2) google search on string "Resolve dependencies of :compileClasspath"
 (3) try to fix step ..... add jcenter() to repositories inside build.gradle file
 (4) see Troubleshoot2.jpg
+(5) try to fix step ..... added new file called gradle.properties with path to jdk
+
+org.gradle.java.home=C:\\Program Files\\Java\\jdk1.8.0_144
+
+
+
 
 
 
