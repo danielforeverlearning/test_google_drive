@@ -38,8 +38,9 @@ still bombs on line 57 of DriveQuickstart.java see Troubleshoot_java_sourcecode_
 
 (9) For  (8A)  found source code in github:
 https://github.com/google/google-api-java-client-samples/tree/master/plus-cmdline-sample
-
-lets try to use this code before trying (8B)
+lets try to use this code before trying (8B),
+uploading "google-api-java-client-samples-master.zip" from github
+look at app called "plus-cmdline-sample"
 
 
 
