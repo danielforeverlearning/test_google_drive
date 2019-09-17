@@ -13,5 +13,8 @@ https://gradle.org/install/
 http://console.developers.google.com
 http://console.developers.google.com
 
+(1) see Troubleshoot1.jpg
+(2) google search on string "Resolve dependencies of :compileClasspath"
+
 
 
