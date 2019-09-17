@@ -1,3 +1,23 @@
+//*****************************************
+//gradle stuff see top of the .pdf file
+//*****************************************
+
+(1) com.google.api.client.googleapis.auth.oauth2 
+see Setup Instructions_google-api-java-client.pdf
+
+Maven usage:
+
+<dependency>
+  <groupId>com.google.api-client</groupId>
+  <artifactId>google-api-client</artifactId>
+  <version>1.30.2</version>
+</dependency>
+
+
+
+
+
+
 //******************************************
 //box1
 //******************************************
