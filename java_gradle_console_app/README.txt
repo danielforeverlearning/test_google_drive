@@ -29,6 +29,10 @@ sent to my phone another authentication step,
 went to my phone and pressed right number,  
 then see Troubleshoot3.jpg
 
+(7) ok .... still kept trying ..... 
+still bombs on line 57 of DriveQuickstart.java see Troubleshoot_java_sourcecode_1.jpg
+
+
 
 
 
