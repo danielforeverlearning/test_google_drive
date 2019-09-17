@@ -1,12 +1,16 @@
+//******************************************
+//box1
+//******************************************
 GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
 Plus plus = new Plus.builder(new NetHttpTransport(),
                              JacksonFactory.getDefaultInstance(),
                              credential)
     .setApplicationName("Google-PlusSample/1.0")
     .build();
-	
-// 1 ***************************************************************************************************
-	
+
+//********************************************
+//box2
+//********************************************
 static Urlshortener newUrlshortener() {
   AppIdentityCredential credential =
       new AppIdentityCredential(
@@ -17,7 +21,9 @@ static Urlshortener newUrlshortener() {
       .build();
 }
 
-// 2 ****************************************************************************************************
+//****************************************************
+//box 3
+//****************************************************
 
 public class CalendarServletSample extends AbstractAuthorizationCodeServlet {
 
@@ -86,7 +92,10 @@ public class CalendarServletCallbackSample extends AbstractAuthorizationCodeCall
   }
 }
 
-// 3 ****************************************************************************************************
+
+//**************************************************
+//box 4
+//**************************************************
 
 public class CalendarAppEngineSample extends AbstractAppEngineAuthorizationCodeServlet {
 
@@ -152,9 +161,9 @@ public class OAuth2Callback extends AbstractAppEngineAuthorizationCodeCallbackSe
   }
 }
 
-
-//4 ********************************************************************************************
-
+//************************************************
+//box 5
+//************************************************
 
 HttpTransport httpTransport = GoogleNetHttpTransport.newTrustedTransport();
 JsonFactory jsonFactory = JacksonFactory.getDefaultInstance();
@@ -168,9 +177,9 @@ plus = new Plus.Builder(httpTransport, jsonFactory, credential)
     .setApplicationName(APPLICATION_NAME).build();
 ...
 
-
-// 5 ************************************************************************************************
-
+//**************************************************
+//box 6
+//**************************************************
 
 public static void main(String[] args) {
   try {
@@ -197,8 +206,10 @@ private static Credential authorize() throws Exception {
   return new AuthorizationCodeInstalledApp(flow, new LocalServerReceiver()).authorize("user");
 }
 
-// 6 ****************************************************************************************************
-
+//*************************************************
+//box 7
+//*************************************************
+	
 public void doGet(HttpServletRequest request, HttpServletResponse response)throws IOException {
   String url = new GoogleBrowserClientRequestUrl("812741506391.apps.googleusercontent.com",
       "https://oauth2.example.com/oauthcallback", Arrays.asList(
@@ -207,9 +218,10 @@ public void doGet(HttpServletRequest request, HttpServletResponse response)throw
   response.sendRedirect(url);
 }
 
-
-// 7 *************************************************************************************************
-
+//***************************************************
+//box 8
+//***************************************************
+	
 com.google.api.services.tasks.Tasks service;
 
 @Override
@@ -260,13 +272,6 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
       break;
   }
 }
-
-
-// 8 **********************************************************************************************
-
-
-
-
 
 
 
