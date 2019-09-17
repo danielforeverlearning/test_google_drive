@@ -10,3 +10,8 @@ https://developers.google.com/api-client-library/java/google-api-java-client/oau
 https://gradle.org/install/
 https://gradle.org/install/
 
+http://console.developers.google.com
+http://console.developers.google.com
+
+
+
