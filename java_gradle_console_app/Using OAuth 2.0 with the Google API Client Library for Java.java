@@ -1,20 +1,30 @@
-//*****************************************
-//gradle stuff see top of the .pdf file
-//*****************************************
+//****************************************************************************************
+//gradle stuff see top of the .pdf file "Setup Instructions_google-api-java-client.pdf"
+//****************************************************************************************
+com.google.api.client.googleapis.auth.oauth2 (from google-api-client)
+com.google.api.client.googleapis.extensions.appengine.auth.oauth2 (from google-api-client-appengine)
 
-(1) com.google.api.client.googleapis.auth.oauth2 
-see Setup Instructions_google-api-java-client.pdf
+(1) 
+google-api-client
+The Google API Client Library for Java (google-api-client) is designed to be compatible with all supported Java platforms, including Android.
 
 Maven usage:
-
 <dependency>
   <groupId>com.google.api-client</groupId>
   <artifactId>google-api-client</artifactId>
   <version>1.30.2</version>
 </dependency>
 
+(2)
+google-api-client-appengine
+Google App Engine extensions to the Google API Client Library for Java (google-api-client-appengine) support Java Google App Engine applications. This module depends on google-api-client, google-api-client-servlet, google-oauth-client-appengine and google-http-client-appengine.
 
-
+Maven usage:
+<dependency>
+  <groupId>com.google.api-client</groupId>
+  <artifactId>google-api-client-appengine</artifactId>
+  <version>1.30.2</version>
+</dependency>
 
 
 
