@@ -15,6 +15,8 @@ http://console.developers.google.com
 
 (1) see Troubleshoot1.jpg
 (2) google search on string "Resolve dependencies of :compileClasspath"
+(3) try to fix step ..... add jcenter() to repositories inside build.gradle file
+(4) see Troubleshoot2.jpg
 
 
 
