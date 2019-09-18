@@ -42,6 +42,27 @@ lets try to use this code before trying (8B),
 uploading "google-api-java-client-samples-master.zip" from github
 look at app called "plus-cmdline-sample"
 
+(10) forget about step9 above,
+got it to work at home, not at work, must be network admins blocking something or not-whitelisting something or blocking ports or whatever.
+
+(11) at home this is how i got it working, its all in test.zip:
+(a) went back to https://developers.google.com/drive/api/v3/quickstart/java
+used exact same code except for this change:
+
+//LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8888).build();
+LocalServerReceiver receiver = new LocalServerReceiver();
+
+(b) used jdk by changing gradle.properties to
+org.gradle.java.home=C:\\Program Files\\Android\\jdk\\microsoft_dist_openjdk_1.8.0.25
+(c) installed gradle put to C:\Gradle\gradle-5.6.2
+() set environment variables for JAVA_HOME and Path
+(d) console.developers.google.com --> authenticate/sign in manually --> make sure project is correct --> Credentials --> make sure there is a "OAuth 2.0 Client IDs" of type Other otherwise click "Create credentials"-->"OAuth client ID"-->Other-->Create
+(e) download the json
+(f) rename it to credentials.json and put in Desktop\test\src\main\resources (assuming you unzipped test.zip to desktop).
+(g) C:\Gradle\gradle-5.6.2\bin gradle clean
+C:\Gradle\gradle-5.6.2\bin gradle run
+and saw list of files!!!!!
+
 
 
 
