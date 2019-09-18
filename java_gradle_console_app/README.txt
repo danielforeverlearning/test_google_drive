@@ -58,10 +58,12 @@ org.gradle.java.home=C:\\Program Files\\Android\\jdk\\microsoft_dist_openjdk_1.8
 () set environment variables for JAVA_HOME and Path
 (d) console.developers.google.com --> authenticate/sign in manually --> make sure project is correct --> Credentials --> make sure there is a "OAuth 2.0 Client IDs" of type Other otherwise click "Create credentials"-->"OAuth client ID"-->Other-->Create
 (e) download the json
-(f) rename it to credentials.json and put in Desktop\test\src\main\resources (assuming you unzipped test.zip to desktop).
+(f) rename it to credentials.json and put in \Desktop\test\src\main\resources (assuming you unzipped test.zip to desktop).
 (g) C:\Gradle\gradle-5.6.2\bin gradle clean
 C:\Gradle\gradle-5.6.2\bin gradle run
-and saw list of files!!!!!
+(h) web-browser will open up and you have to authenticate at google with correct google user that has the project/credentials
+(i) token gets saved to file \Desktop\test\tokens\StoredCredential
+(j) saw list of files!!!!!
 
 
 
